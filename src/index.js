@@ -27,3 +27,5 @@ app.listen({ port }, () =>
     `🚀 Server ready at http://localhost:${port}${server.graphqlPath}`
   )
 );
+
+module.exports = app;
