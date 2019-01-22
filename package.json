@@ -1,0 +1,13 @@
+{
+  "name": "test-now-gql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dacsang97/test-now-gql",
+  "author": "Evan N <dacsang97@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.3.1",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1"
+  }
+}

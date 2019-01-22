@@ -1,0 +1,16 @@
+{
+  "name": "test-gql",
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.ts",
+      "use": "@now/node@canary"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.ts"
+    }
+  ]
+}
